@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* costum style */
+
+
+
+
+/* index page */
+
+.body {
+    line-height: 1.5;
+}
+
+.header {
+    background-color: rgb(5, 5, 78);
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+a:hover {
+    color: rgb(0, 255, 21);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 32px;
+
+}
+
+.center {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+    background-color: aquamarine;
+    border: 20px solid rgb(60, 90, 189);
+}
+
+.parent-box {
+    border: 8px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 70px auto;
+    box-shadow: 0px 0px 0px 20px #90FFA9;
+    border-radius: 9px;
+}
+
+
+.marker {
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+.cricle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #b699db;
+    margin: 0 10px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+
+.two {
+    background-color: #0D1230;
+}
+
+.three {
+    background-color: #90FFA9;
+}
+
+.four {
+    background-color: #5873E2;
+}
+
+hr {
+    border-style: dashed;
+    margin-top: 30px;
+
+}
+
+.big-box {
+    width: 660px;
+    border: 2px solid black;
+    margin: 0px auto;
+    margin-top: 30px;
+    font-size: 0;
+}
+
+.mini-box {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    background-color: rgb(203, 228, 252);
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.two {
+    border: 2px solid black;
+    font-size: 0;
+}
+
+
+/* blog page */
+
+
+body{
+    padding-bottom: 40px;
+}
+/* article one */
+.container2 {
+
+    max-width: 1460px;
+    margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+img{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+#first-article{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.blog-heading{
+    font-size: 34px; 
+    font-weight: 760;
+   display: inline-block;
+  padding-bottom: 20px;
+}
+
+p{
+    font-size: 26px;
+  padding-bottom: 19px;
+  text-align: 0;
+}
+.article-one-button{
+    color: white;
+    background-color: green;
+    font-size: 24px ;
+    border-radius: 25px;
+    border: 0;
+    padding: 5px 20px;   
+}
+
+/* article two */
+.article{
+    width: 600px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+ 
+}
+.blog-heading2{
+    font-size: 34px; 
+    font-weight: 760;
+   display: inline-block;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+.article-two-button{
+color: rgb(9, 151, 9);
+border: 0;
+font-size: 20px;
+font-weight: 700;
+text-decoration: underline;
+}
+
+
